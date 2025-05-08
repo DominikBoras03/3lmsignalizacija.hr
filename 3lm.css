@@ -3,7 +3,7 @@ body {
     background-image: url(pozadina1.jpg);
     background-blend-mode:difference;
     background-color: #636363;
-    font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    font-family:'Segoe UI', Tahoma;
     margin: 0;
 }
 
@@ -25,11 +25,11 @@ h1 {
     font-size: 3vw; 
     color: black;
     margin: 0;
-    font-family:Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    font-family:Impact;
 }
 
 h2{
-    font-family:Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    font-family:Impact;
     display: flex;
     align-items: center;
     justify-content: center;
@@ -37,8 +37,12 @@ h2{
     width: fit-content;
 }
 
+.footer-h2{
+    font-size: 300%;
+}
+
 h3{
-    font-family:Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    font-family:Impact;
     display: flex;
     align-items: center;
     justify-content: center;
@@ -63,6 +67,11 @@ p.about{
     font-size: 150%;
     font-weight:bold;
     text-align: center;
+}
+
+.p-onama{
+    font-weight: bold;
+    padding: 1% 2%;
 }
 
 .col-lg-4{
@@ -390,6 +399,10 @@ img{
         font-size: 6vw;
     }
 
+    .footer-h2{
+        font-size: 6vw;
+    }
+
     h3 {
         font-size: 5vw;
     }
@@ -419,6 +432,10 @@ img{
         right: 5%;
         transform: translateY(-50%); 
     }
+
+    .kontakt-forma {
+        max-width: 80%;
+    }
 }
 
 @media screen and (max-width: 480px) {
@@ -430,12 +447,20 @@ img{
         font-size: 5vw;
     }
 
+    .footer-h2{
+        font-size: 5vw;
+    }
+
     h3 {
         font-size: 6vw;
     }
 
     p{
         font-size: 3vw;
+    }
+
+    .p-onama{
+        font-size: 4vw;
     }
 
     li {
@@ -449,5 +474,9 @@ img{
         top: 20%;
         right: 5%;
         transform: translateY(-50%); 
+    }
+
+    .kontakt-forma {
+        max-width: 80%;
     }
 }
