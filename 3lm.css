@@ -468,6 +468,10 @@ img{
         font-size: 5vw;
     }
 
+    .header {
+    padding: 2% 8%;
+}
+
     .hamburger-menu {
         height: 4%;
         width: 6%;
